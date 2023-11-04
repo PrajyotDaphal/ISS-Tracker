@@ -16,9 +16,9 @@ lat = Data['iss_position']['latitude']
 
 lon = Data['iss_position']['longitude']
 
-Say(f"Time And date : {dt}")
-Say(f"Lantitude: {lat}")
-Say(f"Longitude : {lon}")
+print(f"Time And date : {dt}")
+print(f"Lantitude: {lat}")
+print(f"Longitude : {lon}")
 
 plt.figure(figsize=(10,8))
 
